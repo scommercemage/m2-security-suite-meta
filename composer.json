@@ -1,0 +1,29 @@
+{
+    "name": "scommerce/m2-security-suite-meta",
+    "description": "Security Suite Meta for Magento 2",
+    "require": {
+        "php": ">=7.2.0",
+        "scommerce/core": "2.0.*",
+        "scommerce/security-base": "2.0.*",
+        "scommerce/admin-login-security": "2.0.*",
+        "scommerce/admin-security-checklist": "2.0.*",
+        "scommerce/admin-activity-logger": "2.0.*"
+    },
+    "version": "2.0.0",
+    "type": "metapackage",
+    "license": "Commercial",
+    "authors": [
+        {
+            "name": "Scommerce Mage",
+            "email": "core@scommerce-mage.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Scommerce\\SecuritySuiteMeta\\": ""
+        }
+    }
+}
