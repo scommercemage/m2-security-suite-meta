@@ -16,13 +16,5 @@
             "name": "Scommerce Mage",
             "email": "core@scommerce-mage.com"
         }
-    ],
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "Scommerce\\SecuritySuiteMeta\\": ""
-        }
-    }
+    ]
 }
