@@ -4,7 +4,7 @@
     "require": {
         "php": ">=7.2.0",
         "scommerce/core": "2.0.*",
-        "scommerce/admin-login-security": "2.0.*",
+        "scommerce/admin-login-security": "dev-SCOM-949",
         "scommerce/admin-security-checklist": "2.0.*",
         "scommerce/admin-activity-logger": "2.0.*"
     },
